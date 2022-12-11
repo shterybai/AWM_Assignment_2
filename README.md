@@ -27,13 +27,13 @@ With the Django image, I created a Django container with the image mounted on it
 ## Mapping
 The user is greeted with a login page and, if they don't have an account, they can register an account. This is handled with the PgAdmin4 database container.
 
-(images/login.png)
-(images/register.png)
+![login](images/login.png)
+![register](images/register.png)
 
 For mapping, I wanted to create a healthcare-related web application. This web app maps all hospitals in Ireland, using a GeoJSON file generated from overpass-turbo.eu. This file is then fetched and a Marker containing relevent JSON information is created for each hospital.
 
-(images/hospitalLocation.png)
+![location](images/hospitalLocation.png)
 
 I also created a feature where the user can create their own "Emergency" marker where a medical emergency has occured. The user is then prompted to provide details about the medical emergency.
 
-(images/emergencyMarker.png)
+![emergencyMarker](images/emergencyMarker.png)
