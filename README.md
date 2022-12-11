@@ -1,7 +1,7 @@
 # AWM_Assignment_2
 
 ## Website Link
-shterybai.xyz
+https://shterybai.xyz
 
 ## Deployment
 In order to deploy the website, I first had to register a domain name. This was done using namecheap.com, where I registered the domain "shterybai.xyz", which is named after my GitHub account. I also had to create a Droplet on DigitalOcean with Ubuntu and Docker. I then copied the IPv4 address of the Droplet, and then went into the "Advanced DNS" section of my namecheap domain and added an "A Record" containing the droplet IP.
