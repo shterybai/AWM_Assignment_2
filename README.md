@@ -22,6 +22,10 @@ Once this was done, I started each container to make sure they were working usin
 
 Once I made sure each container was running, I logged into my DockerHub account and pushed my Django image to my account. I then logged onto my DockerHub account, this time within the Droplet console, and pulled my image.
 
+```
+    docker pull shterybai/wmap_assignment_image
+```
+
 With the Django image, I created a Django container with the image mounted on it. I also cd'd into wmap_nginx_certbot/conf and created two .conf files: headers, and server. I then ran all containers in order, and once again verified that they were all running successfully.
 
 ## Mapping
