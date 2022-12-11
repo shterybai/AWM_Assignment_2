@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 90vh;
+}
+
+nav {
+    background-color: #ff7a7b;
+}
+
+.cringe {
+    padding: 60px;
+}
